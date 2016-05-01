@@ -11,7 +11,8 @@ public class EasevokeServiceHandler {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println("判断是不是被注解的类"+requestedClass.isAnnotationPresent(EasevokeService.class));
+		//判断是不是被注解的类
+		requestedClass.isAnnotationPresent(EasevokeService.class);
 		
 	}
 }
